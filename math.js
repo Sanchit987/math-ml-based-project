@@ -34,7 +34,6 @@ function checkAnswer(){
 		if(score!= 0){
 		score--;}
 		console.log(`wrong. Score: ${score}`);
-		backgroundImages.pop();
 		alert('Oops! check your calculations and try writing the number neater next time!');
 		setTimeout(function(){
 			backgroundImages.pop();
