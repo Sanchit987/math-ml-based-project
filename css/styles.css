@@ -1,6 +1,6 @@
 body {
 font-family: 'Just Another Hand', cursive;
-background-color: #242E6B;
+background-color: #f05454;
 width: 100%;
 background-position: top;
 background-repeat: no-repeat;
@@ -22,7 +22,7 @@ h1, h2{
 
 /* TODO: Styling by id: add styling for canvas */
 #title{
-  color: #FC8C93;
+  color: #214252;
   line-height: 50px;
   padding: 50px;
 }
@@ -42,17 +42,18 @@ h1, h2{
 	border-radius:20px;
   border-width: 0;
 	cursor:pointer;
-	color:#242E6B;
+	color:#214252;
   line-height: 70px;
-	font-family:'Just Another Hand', cursive;
+	font-family: 'Syne Mono', monospace;
 	font-size:70px;
   letter-spacing: 3px;
-	padding:13px 32px 0 32px;
+	padding:13px 13px 13px 13px;
   text-align: center;
 	text-decoration:none;
 }
 
 /* TODO: Styling by class: add Styling for button on hover */
 .btn:hover{
-  background-color:#4caf50;
+  background-color: #af2d2d;
+  color: white;
 }
